@@ -5,6 +5,8 @@ corr <- function(file, channels,threshold = 0) {
   # it should include ga:sourceMedium, ga:visits, ga:transactions, ga:date
   # channels correspond à un tableau répertoriant toutes les sources de trafic
   # Initialisation du vecteur dans lequel nous allons stocker les corrélations entre visites et transactions
+
+  #NOTE: would work best if you compute the correlation between investments on a daily basis and transactions
   Correlation <- vector()
   typologie <- vector()
   
