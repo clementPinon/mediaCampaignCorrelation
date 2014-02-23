@@ -1,4 +1,7 @@
+#Datasets
 *.csv
 *.tsv
 *.xls
 
+#system file Mac
+.DS_Store
